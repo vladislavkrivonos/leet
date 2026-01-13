@@ -1,5 +1,5 @@
 function shuffle(nums: number[], n: number): number[] {
-    const res = [];
+    const res: number[] = [];
 
     for (let i = 0; i < n; i++) {
         res[i * 2] = nums[i];
